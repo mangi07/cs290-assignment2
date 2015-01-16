@@ -1,0 +1,45 @@
+
+tbody th {
+	font-style: italic;
+	font-weight: normal;
+}
+
+tbody tr td:nth-child(2) {
+	color: red;
+}
+
+tbody tr td:nth-child(4) {
+	color: blue;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: lightgreen;
+}
+
+tbody tr:nth-child(even) {
+	background-color: lightblue;
+}
+
+dt:hover + dd {
+	background-color: purple;
+}
+
+.outer-content {
+	background-color: pink;
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;  /*with this, the top of the following image and text are aligned */
+	padding: 10px;
+	width: 75%;
+}
+
+.inner-content {
+	background-color: lightblue;
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+}
+
+img {
+	float: left;
+}
